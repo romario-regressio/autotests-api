@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827dab2d-e206-46d3-b611-4daad0d47545" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api_client_get_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/public_http_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/authentication/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/authentication/users/public_users_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/files/files_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/private_users_client.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +40,7 @@
     "Python.api_client_get_user.executor": "Run",
     "Python.async.executor": "Run",
     "Python.authentication_client.executor": "Run",
+    "Python.exercises_client.executor": "Run",
     "Python.fakers.executor": "Run",
     "Python.httpx_example.executor": "Run",
     "Python.httpx_info.executor": "Debug",
@@ -86,7 +76,7 @@
       <recent name="$PROJECT_DIR$/clients" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.api_client_create_course">
+  <component name="RunManager" selected="Python.exercises_client">
     <configuration name="api_client_create_course" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
@@ -186,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="httpx_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="exercises_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,14 +185,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clients/exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_info.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clients/exercises/exercises_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exercises_client" />
         <item itemvalue="Python.api_client_create_course" />
         <item itemvalue="Python.api_client_get_user" />
         <item itemvalue="Python.authentication_client" />
         <item itemvalue="Python.public_users_client" />
-        <item itemvalue="Python.httpx_info" />
       </list>
     </recent_temporary>
   </component>
